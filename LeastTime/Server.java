@@ -11,18 +11,34 @@ public class Server {
         this.responseTime = responseTime;
     }
 
+    /**
+     * 
+     * @return
+     */
     public String getIpAddress() {
         return ipAddress;
     }
 
+    /**
+     * 
+     * @return
+     */
     public int getCurrentLoad() {
         return currentLoad;
     }
 
+    /**
+     * 
+     * @return
+     */
     public int getResponseTime() {
         return responseTime;
     }
 
+    /**
+     * 
+     * @param currentLoad
+     */
     public void setCurrentLoad(int currentLoad) {
         this.currentLoad = currentLoad;
     }
