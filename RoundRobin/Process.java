@@ -9,14 +9,26 @@ public class Process {
         this.burstTime = burstTime;
     }
 
+    /**
+     * 
+     * @return
+     */
     public int getId() {
         return id;
     }
 
+    /**
+     * 
+     * @return
+     */
     public int getBurstTime() {
         return burstTime;
     }
 
+    /**
+     * 
+     * @param burstTime
+     */
     public void setBurstTime(int burstTime) {
         this.burstTime = burstTime;
     }
